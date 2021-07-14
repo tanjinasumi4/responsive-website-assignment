@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+/* top banner style start */
 p{
     font-size: 70px;
     font-weight: bolder;
@@ -16,6 +17,7 @@ p{
      padding-left: 10%;
      padding-top: 140px;
 }
+
 .pack img{
     width: 622px;
     height: 489px;
@@ -33,6 +35,9 @@ p{
 .fa-arrow-right{
     padding-left: 10px;
 }
+/* top banner style finish */
+
+/* All player style start */
 .all-player{
     font-size: 60px ;
     color:gray;
@@ -72,6 +77,9 @@ p{
     color: black;
     font-size: 15px;
 }
+/* All player style finish */
+
+/* Extra bonus part start   */
 .light{
     background-color:black;
    margin: 0;
@@ -104,13 +112,24 @@ h2{
         text-shadow: 4px 4px blue;
     }
 }
+/* Extra bonus part finish   */
+
+/* Extra video part start   */
 .video-edit{
    background-color: lightblue;
 }
+/* Extra video part finish   */
+
+/* Font awesome start   */
 .image-edit{
     display: flex;
     padding-top: 50px;
     justify-content: center;
+}
+.image-edit img{
+    width: 483px;
+    height: 110px;
+    
 }
 .icon{
     display: flex;
@@ -125,4 +144,5 @@ h2{
     font-size: 17px;
     text-align: center;
 }
+/* Font awesome finish   */
 
