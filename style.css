@@ -146,3 +146,32 @@ h2{
 }
 /* Font awesome finish   */
 
+
+/* -----------media queries------- 
+--------Mobile devices---------- */
+@media only screen and (max-width:688px){
+    .container{
+        width: 100%;
+    }
+    .side{
+       grid-template-columns: repeat(1, 1fr);
+    }
+    .flexible{
+        flex-direction: column;
+    }
+    
+    .all-player{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
+/* tablet devices */
+@media only screen and(min-width:688px) and (max-width:992px) {
+    .container{
+        width: 100%;
+    }
+    .all-player{
+        background-color: #2D25A0;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
