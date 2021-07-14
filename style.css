@@ -1,0 +1,128 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-size: 70px;
+    font-weight: bolder;
+    color: #FFFFFF;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+    background-color: #2D25A0;
+}
+.side{
+     width: 50%;
+     padding-left: 10%;
+     padding-top: 140px;
+}
+.pack img{
+    width: 622px;
+    height: 489px;
+    margin-top: 114px;
+    margin-bottom: 74px;
+    margin-right: 148px;
+}
+.new-button{
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 30px;
+    color: white;
+    font-weight: 500;
+}
+.fa-arrow-right{
+    padding-left: 10px;
+}
+.all-player{
+    font-size: 60px ;
+    color:gray;
+    font-weight: 500;
+    padding-left: 10%;
+}
+.flexible{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    margin-bottom: 50px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.half-width{
+    width: 50%;
+    padding: 5%;
+    
+}
+.half-width img{
+    width: 100%;
+}
+.individual{
+    margin-right: 2%;
+    margin-left: 2%;
+    box-shadow: 5px 5px 15px gray;
+    padding: 20px 20px;
+    
+}
+.design{
+    font-size: 30px ;
+    color:black;
+    font-weight: bold;
+   font-style: normal;
+}
+.design-1{
+    color: black;
+    font-size: 15px;
+}
+.light{
+    background-color:black;
+   margin: 0;
+   padding: 0;
+}
+h1{
+    color: lightcoral;
+    font-style: italic;
+    text-decoration: uppercase;
+    font-weight: bolder;
+    padding: 10px;
+}
+h2{
+    color: white;
+    margin-top: 8%;
+    font-size: 150px;
+    font-weight: bolder;;
+    padding: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+    animation: lighting .1s infinite;
+    color: rgba(0,0,0,0);
+}
+@keyframes lighting {
+    0%,100%{
+        text-shadow: 4px 4px red;
+    }
+    50%{
+        text-shadow: 4px 4px blue;
+    }
+}
+.video-edit{
+   background-color: lightblue;
+}
+.image-edit{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+}
+.filled{
+    padding-left: 30px;
+    margin-right: 20px;
+} 
+#color{
+    color: black;
+    font-size: 17px;
+    text-align: center;
+}
+
